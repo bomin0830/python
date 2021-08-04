@@ -18,15 +18,49 @@
     2) string의 일부분 추출(slice)
      - [n:m] = n번째부터 m번째 사이의 부분, n은 포함하고, m은 뺀 부분을 지정, (m-n)길이의 문자(열) 생성
 
-4. LIST
-    1) 길이 재기 : len(리스트명)
-    2) slice 연산
-     - list_name[index1:index2]
-     - list_name[:] = 모든 범위의 list를 생성하는 연산
-     - list_name[:index2] = index2 미만(index2-1)인 범위의 부분list를 생성하는 연산
-     - list_name[index1:] = index1 이상 범위의 부분 list를 생성하는 연산
-    3) index가 음수인 경우
-    : index는 끝에서 부터 센다 -1은 제일 마지막 리스트 요소
+4. INPUT
+    1) int형으로 변수 받는 법
+    : a=int(input(''))
+    2) 변수 한꺼번에 여러번 쓰는법
+    : 있지만 귀찮음, slice 인가 split써서 했는데 굳이 하고싶으면 찾아봐라
+
+5. LIST
+    1) LIST의 구성요소 확인
+     - in: list의 원소인가를 확인하는 연산자
+     
+6. TUPLE/SET/DICTIONARY
+    1) TUPLE
+     - tuple의 생성
+       : name=(a,b,c)
+     - 
+    2) SET형
+     - name={a,b,c}
+     - 많은 자료를 분리하고 활용
+     - 중복을 허용하지 않는다
+     - 순서가 없다.
+    
+    3) DICTIONARY 형
+     - dictioinary형의 요소는 한 쌍의 key: value로 표현
+
+7. 반복문
+    1) While문
+        while 조건:
+            True_statements 
+        조건에 만족하는 동안 True_statements를 반복적으로 수행
+     - break 사용
+     :  무한루프에서 조건하나를 더달아서 break
+    2) for문
+        for item in sequence:
+            True_statements
+     - range()
+     : for문에서 특정 범위를 지정
+     - list를 활용한 for문 : 리스트의 요소에서 반복
+     - 문자열을 활용한 for문 : 문자열을 쪼게서 반복
+     
+      
+
+
+    
 """
 
 
