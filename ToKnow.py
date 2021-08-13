@@ -27,6 +27,15 @@
 5. LIST
     1) LIST의 구성요소 확인
      - in: list의 원소인가를 확인하는 연산자
+
+    2) 리스트가 가진 다양한 기능
+     - list.append(): 리스트에 요소추가
+     - list.pop(): 리스트의 맨 마지막 요소를 돌려주고 그 요소는 삭제
+     - list.index() : 값을 이용하여 위치찾기
+     - list.extend([value1,value2]) : 리스트 뒤에 값을 추가
+     - list.insert(index,value): 원하는 위치에 값을 추가
+     - list.sort(): 값을 순서대로 정렬
+     - list.reverse(): 값을 역순으로 정렬
      
 6. TUPLE/SET/DICTIONARY
     1) TUPLE
